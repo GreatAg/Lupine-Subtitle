@@ -21,7 +21,7 @@ import telebot
 from telebot import types
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 
-TOKEN = '1112353414:AAHtywLOJ5qC5KKwekC1jVjk5aZ4FK68tc4'
+TOKEN = ''
 
 bot = telebot.TeleBot(TOKEN, num_threads=10)
 
@@ -208,7 +208,7 @@ def start(message):
 ❕سپس اندکی صبر میکنید تا جستجو انجام شود سپس رو نمایش نتایج میزنید و پنل فیلم‌ ها برای شما باز میشود و با انتخاب هر فیلم لیست زیرنویس ها نمایش داده میشود🔅
 
 ❗️درصورت ایراد میتوانید با ایدی زیر در تماس باشید:
-ID : @Ee_Alie ⚜️
+ID : @Great_Ag ⚜️
 Channel: @lupine_guys ⚜️
 
 Developed by ✵αℓi αg''')
@@ -223,7 +223,7 @@ def poll():
         try:
             bot.polling(none_stop=True, timeout=234)
         except Exception as e:
-            bot.send_message(chat_id=638994540, text=e)
+            bot.send_message(chat_id=, text=e)
             raise e
 
 
